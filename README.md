@@ -1,5 +1,6 @@
 # K-means Image Segmentation
-This project implements the K-means clustering algorithm from scratch for image segmentation.
+This project implements the K-means clustering algorithm from scratch for image segmentation. </br>
+Functions are fully vectorized and optimized. Compiling times were tested to be similar to the scikit-learn implementation. 
 ### K-means Color Only
 The norm between the centroid pixel and the current pixel was used as the distance measure. </br>
 Pixels were assigned to the cluster based on the lowest score. </br> </br>
